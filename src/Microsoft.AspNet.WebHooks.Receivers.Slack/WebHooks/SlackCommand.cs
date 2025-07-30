@@ -170,7 +170,7 @@ namespace Microsoft.AspNet.WebHooks
                     }
                     else
                     {
-                        normalized.Append('\0');
+                        normalized.Append("\\0");
                     }
 
                     if (++bytesConsumed == text.Length)
